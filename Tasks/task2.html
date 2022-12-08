@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link type="image/x-icon" rel="icon" href="./Images/favicon.ico" />
+    <title>task2</title>
+    <style>
+        .dist {
+            padding-left: 450px;
+            padding-top: 20px;
+            background: rgba(241, 241, 241, 0.945);
+            color: rgb(67, 133, 76);
+        }
+
+        #txt_notes {
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background: rgba(228, 228, 228, 0.897); padding: 10px 10px;">
+        <center>
+            <h1 style="color: grey;">Create Account</h1>
+        </center>
+    </div>
+
+    <div class="dist">
+        <table>
+            <tr>
+                <td style="padding-right: 10px;">
+                    <label for="Firstname">First name *</label>
+                    <br />
+                    <input id="Firstname" type="text" placeholder="Enter your First name" autofocus required
+                        autocomplete="off"
+                        style="padding-right: 100px; border-radius: 5px;border-color:rgba(241, 241, 241, 0.945);  outline: none;" />
+                </td>
+                <td>
+                    <label for="Lastname">Last name </label>
+                    <br />
+                    <input id="Lastname" type="text" placeholder="enter your Last name" autofocus autocomplete="off"
+                        style="padding-right: 100px; border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ; outline: none;" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="dist">
+        <label for="Email">Email*</label>
+        <br />
+        <input id="Email" type="text" placeholder="enter your email" autofocus required autocomplete="off"
+            style="padding-right: 360px; border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;outline: none;" />
+    </div>
+    <div class="dist">
+        <table>
+            <tr>
+                <td style="padding-right: 10px;">
+                    <label for="Password">Password *</label>
+                    <br />
+                    <input id="Password" type="password" placeholder="enter your password" autofocus required
+                        autocomplete="off"
+                        style="padding-right: 100px; border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;outline: none;" />
+                </td>
+                <td>
+                    <label for="ConfirmPassword">Confirm Password * </label>
+                    <br />
+                    <input id="ConfirmPassword" type="text" placeholder="enter your password again" autofocus
+                        autocomplete="off"
+                        style="padding-right: 100px; border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;outline: none;" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="dist">
+        <table>
+            <tr>
+                <td style="padding-right: 120px;">
+                    <form>
+                        <p> Gender:</p>
+                        <input id="rad_1" type="radio" value=" Male " name="Gender" required
+                            style="border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;padding-left: 450px;
+                            padding-top: 20px;" />
+                        <label for="rad_1"> Male </label>
+                        <input id="rad_2" type="radio" value=" Famle " name="Gender" required
+                            style="border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;outline: none;padding-left: 450px;
+                            padding-top: 20px;" />
+                        <label for="rad_2"> Famle </label>
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <p> Hobbies</p>
+                        <input id="hobbies_1" type="checkbox" value="Music" name="Hobby-1"
+                            style="border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;" />
+                        <label for="hobbies_1">Sports</label>
+                        <input id="hobbies_2" type="checkbox" value="Sports" name="Hobby-2"
+                            style="border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;" />
+                        <label for="hobbies_2">Music</label>
+                        <input id="hobbies_3" type="checkbox" value="Travel" name="Hobby-3"
+                            style="border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;" />
+                        <label for="hobbies_3">Travel</label>
+                        <input id="hobbies_4" type="checkbox" value="Movies" name="Hobby-4"
+                            style="border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;" />
+                        <label for="hobbies_4">Movies</label>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="dist">
+        <table>
+            <tr>
+                <td style="padding-right: 20px;">
+                    <form>
+                        <label for="source"> Source of Income </label>
+                        <br />
+                        <select id="source"
+                            style="padding-right: 67px;border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;">
+                            <option value="0">--- choose ---</option>
+                            <option value="1">Employed</option>
+                            <option value="2">non employed</option>
+                    </form>
+                </td>
+                <td style="padding-left: 60px;">
+                    <form>
+
+                        <label for="income"> Income </label>
+                        <br />
+                        <input id="income" type="range"
+                            style="padding-right: 100px;border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;outline: none;" />
+                        <button type="menu"
+                            style="background-color:rgb(67, 133, 76); color: white;border-radius: 5px;border-color:rgb(67, 133, 76) ;">
+                            20k </button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="dist">
+        <table>
+            <tr>
+                <td style="padding-right: 20px;">
+                    <label for="UploadPicture">Upload Profile Picture</label>
+                    <br />
+                    <input id="UploadPicture" type="file"
+                        style="border-radius: 5px;border-color:rgba(241, 241, 241, 0.945) ;" />
+                </td>
+                <td style="padding-left: 50px;">
+                    <label for="Age">Age</label>
+                    <br />
+                    <input id="Age" type="number"
+                        style="border-color:rgba(241, 241, 241, 0.945) ;outline: none;" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="dist" style=" padding-left: 450px;
+        padding-top: 20px;">
+        <p>Bio</p>
+        <textarea id="txt_notes" rows="5" cols="75"
+            style="border-radius: 5px; border-color:rgba(241, 241, 241, 0.945) ;outline: none;"></textarea>
+    </div>
+
+    <div class="dist" style="background: rgba(228, 228, 228, 0.897);">
+        <table>
+            <tr>
+                <td style="padding-right: 440px;color:rgb(177, 177, 177);">
+                    <i>*required</i>
+                </td>
+                <td>
+                    <button type="submit"
+                        style="background-color:rgb(67, 133, 76); color: white;border-radius: 5px;border-color:rgb(67, 133, 76); ">Create</button>
+                </td>
+            </tr>
+        </table>
+
+
+    </div>
+</body>
+
+</html>

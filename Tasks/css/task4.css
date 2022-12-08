@@ -1,0 +1,21 @@
+#search {
+    font-size: 17px;
+    width: 550px;
+    height: 40px;
+    box-shadow: 2px 2px 2px 2px #ddd4d4;
+    border-radius: 50px;
+    border: none;
+    text-align: start;
+    margin: 300px 200px 200px 400px;
+    padding-left: 55px;
+    outline:none;
+}
+
+
+span {
+    position: absolute;
+    padding: 10px;
+    min-width: 40px;
+    margin: 300px 200px 200px 407px;
+    color: gray;
+}

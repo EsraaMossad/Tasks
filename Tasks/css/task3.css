@@ -1,0 +1,33 @@
+.word {
+    font-size: 71px;
+    color: #67812a;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 27px;
+    width: 222px;
+    margin: auto;
+    position: relative;
+}
+
+.word::before {
+    content: '';
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    border-top: 5px solid #ff7800;
+    border-left: 5px solid #ff7800;
+    top: 92px;
+    left: -22px;
+}
+
+.word::after {
+    content: '';
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    border-bottom: 5px solid #ff7800;
+    border-right: 5px solid #ff7800;
+    bottom: 74px;
+    right: -9px;
+}
